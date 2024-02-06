@@ -142,15 +142,19 @@ body{
 }
 
 .texto__rodape{
-    justify-itens: center;
+    display: flex;
+    justify-content: center;
     text-decoration: none; 
+    align-items: center;
     background-color: var(--cor-terciaria);
-    font-size: 1rem;
+    font-size: 1.15rem;
     color: var(--cor-primaria);
     font-family: var(--fonte-primaria);
-    padding: 30px;
+    padding: 20.5px;
     text-align: center;
     font-weight: 400;
+    gap: 30px;
+}
     
 }
 
@@ -199,8 +203,6 @@ button:disabled {
            
 }
     .texto__rodape{
-    display: flex;
-    justify-itens: center;
     font-size: 0.90rem;  
 }
 
