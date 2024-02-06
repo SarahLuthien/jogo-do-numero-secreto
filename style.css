@@ -104,8 +104,6 @@ body{
 
 
 .container__botao {
-    display: flex;
-    justify-content: center;
     border-radius: 16px;
     background: var(--cor-terciaria);
     padding: 16px 20px;
@@ -144,8 +142,7 @@ body{
 }
 
 .texto__rodape{
-    display: flex;
-    justify-itens: space-around;
+    justify-itens: center;
     text-decoration: none; 
     background-color: var(--cor-terciaria);
     font-size: 1rem;
@@ -196,10 +193,13 @@ button:disabled {
     width: 50%;
 }
     .container__botao {
+    display: flex;
+    justify-content: center;
     padding: 15px 20px;
            
 }
     .texto__rodape{
+    display: flex;
     justify-itens: center;
     font-size: 0.90rem;  
 }
