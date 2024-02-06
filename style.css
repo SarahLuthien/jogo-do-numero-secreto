@@ -154,6 +154,7 @@ body{
     padding: 30px;
     text-align: center;
     font-weight: 400;
+    gap: 30px;
    }
     
 
@@ -203,6 +204,7 @@ button:disabled {
     .texto__rodape{
     font-size: 0.90rem;  
     padding: 20.5px;
+    gap: 5px;
 }
 
     .apresentacao__menu_jogo{
