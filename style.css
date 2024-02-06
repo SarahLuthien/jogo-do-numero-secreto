@@ -145,6 +145,7 @@ body{
 .texto__rodape{
     display: flex;
     justify-content: center;
+    width: 100%;
     text-decoration: none; 
     align-items: center;
     background-color: var(--cor-terciaria);
