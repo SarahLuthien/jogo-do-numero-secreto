@@ -145,6 +145,7 @@ body{
 }
 
 .texto__rodape{
+    display: flex;
     justify-itens: center;
     text-decoration: none; 
     align-items: center;
