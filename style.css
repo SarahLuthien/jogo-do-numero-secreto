@@ -156,12 +156,9 @@ body{
     font-weight: 400;
    }
     
-}
 
 .texto__rodape:hover{
-    background-color: var(--cor-hover-rodape);
-
-    
+    background-color: var(--cor-hover-rodape);   
 }
 
 button:disabled {
