@@ -50,7 +50,7 @@ body{
     margin: 20px 30px;
     padding: 2% 4%;
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
     
     
 }
@@ -73,12 +73,11 @@ body{
     text-align: center;
     border-radius: 20px;
     font-size: 1rem;
-    padding: 0.5rem;
+    padding: 1.2rem;
     text-decoration: none; 
     font-family: var(--fonte-primaria); 
     color: var(--cor-secundaria);
-    background-image: url("/assets/Ruido.png");
-        
+            
 }
 
 
@@ -146,9 +145,8 @@ body{
 
 .texto__rodape{
     display: flex;
-    justify-itens: center;
+    justify-itens: space-around;
     text-decoration: none; 
-    align-items: center;
     background-color: var(--cor-terciaria);
     font-size: 1rem;
     color: var(--cor-primaria);
@@ -199,12 +197,18 @@ button:disabled {
 }
     .container__botao {
     padding: 15px 20px;
-    width: 50%;
-       
+           
 }
     .texto__rodape{
-    font-size: 0.90rem;
-    
-    
+    justify-itens: center;
+    font-size: 0.90rem;  
+}
+
+    .apresentacao__menu_jogo{
+    justify-content: space-around;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  
+            
 }
 }
