@@ -50,11 +50,11 @@ function verificarChute(){
     } else {
         if(chute > numeroSecreto){
             exibirTextoNaTela('h1', 'Por favor, tente novamente.');
-            exibirTextoNaTela('h2','Você está quas lá!');
+            exibirTextoNaTela('h2','Você está quase lá!');
                 exibirTextoNaTela('p', 'O número secreto é MENOR.');   
             } else {
             exibirTextoNaTela('h1', 'Por favor, tente novamente.');
-                exibirTextoNaTela('h2','Você está quas lá!');
+                exibirTextoNaTela('h2','Você está quase lá!');
                 exibirTextoNaTela('p', 'O número secreto é MAIOR.');
         }
         tentativas++
