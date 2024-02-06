@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html" >Home</a>
+            <a class="cabecalho__menu__link" href="about.html" >Sobre mim</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+                <h1 class="titulo_destaque"></h1>
+                <h2 class="subtitulo"></h2>
+                <p class="subtexto"></p>
+                
+            <div class="apresentacao__menu_jogo">
+            <input type="number" min="1" max="10" class="container__input">
+            <a class="chute container__botoes">
+                <button onclick="verificarChute()" class="container__botao">Chutar</button>
+                <button onclick="reiniciarJogo()" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
+            </a>    
+            </div>
+        </section>    
+        
+            <img class="image__conteudo" src="./assets/sherlockholmes.jpeg" alt="logo do jogo">
+    </main>
+   
+    <footer>
+        <a class="texto__rodape" href="https://www.instagram.com/sarahluthien_/">Desenvolvido por Sarah Luthien<img src="./assets/icone-instagram.png"></a>       
+        </footer>
+        
+    <script src="app.js" defer></script>
+</body>
+</html>
