@@ -185,5 +185,7 @@ button:disabled {
     .apresentacao__conteudo{
         width: auto;
     }
-   
+    .apresentacao__menu_jogo{
+        width: auto;
+    }
 }
