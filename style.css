@@ -68,7 +68,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 35px;
     width: 100%;
     text-align: center;
     border-radius: 20px;
@@ -137,7 +137,7 @@ body{
 .image__conteudo{
     border: 3px solid #22D4FD;
     padding: 12.5px;
-    width: 30%;
+    width: 28%;
        
 }
 
@@ -150,7 +150,7 @@ body{
     font-size: 1.15rem;
     color: var(--cor-primaria);
     font-family: var(--fonte-primaria);
-    padding: 20.5px;
+    padding: 25px;
     text-align: center;
     font-weight: 400;
     gap: 30px;
@@ -204,6 +204,7 @@ button:disabled {
 }
     .texto__rodape{
     font-size: 0.90rem;  
+    padding: 20.5px;
 }
 
     .apresentacao__menu_jogo{
