@@ -90,14 +90,14 @@ body{
 }
 
 .subtitulo{
-    font-size: 1.50rem;
+    font-size: 1.20rem;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
     font-weight: 600;
 
 }
 .subtexto{
-    font-size: 2rem;
+    font-size: 1.35rem;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
 
@@ -105,6 +105,8 @@ body{
 
 
 .container__botao {
+    display: flex;
+    justify-content: center;
     border-radius: 16px;
     background: var(--cor-terciaria);
     padding: 14px 20px;
@@ -148,10 +150,10 @@ body{
     text-decoration: none; 
     align-items: center;
     background-color: var(--cor-terciaria);
-    font-size: 1.15rem;
+    font-size: 0.90rem;
     color: var(--cor-primaria);
     font-family: var(--fonte-primaria);
-    padding: 35.5px;
+    padding: 25.5px;
     text-align: center;
     font-weight: 400;
     gap: 30px;
