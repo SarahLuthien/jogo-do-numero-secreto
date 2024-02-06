@@ -198,9 +198,7 @@ button:disabled {
     width: 50%;
 }
     .container__botao {
-    display: flex;
-    justify-content: space-around;
-    padding: 14px 18px;
+    padding: 15px 20px;
     width: 50%;
        
 }
