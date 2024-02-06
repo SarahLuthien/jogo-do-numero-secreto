@@ -68,12 +68,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
     width: 100%;
     text-align: center;
     border-radius: 20px;
     font-size: 1.20rem;
-    padding: 1.9px;
+    padding: 0.5rem;
     text-decoration: none; 
     font-family: var(--fonte-primaria); 
     color: var(--cor-secundaria);
