@@ -137,7 +137,7 @@ body{
 .image__conteudo{
     border: 3px solid #22D4FD;
     padding: 12.5px;
-    width: 22%;
+    width: 25%;
        
 }
 
@@ -150,11 +150,10 @@ body{
     font-size: 1.15rem;
     color: var(--cor-primaria);
     font-family: var(--fonte-primaria);
-    padding: 25px;
+    padding: 30px;
     text-align: center;
     font-weight: 400;
-    gap: 30px;
-}
+   }
     
 }
 
