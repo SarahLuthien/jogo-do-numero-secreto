@@ -151,7 +151,7 @@ body{
     font-size: 1.15rem;
     color: var(--cor-primaria);
     font-family: var(--fonte-primaria);
-    padding: 25.5px;
+    padding: 24px;
     text-align: center;
     font-weight: 400;
     gap: 30px;
@@ -211,7 +211,7 @@ button:disabled {
     justify-content: space-around;
     font-size: 0.9rem;
     padding: 0.5rem;
-  
-            
+             
 }
+    
 }
