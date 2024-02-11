@@ -1,7 +1,7 @@
 <h1> :video_game: Jogo do número secreto</h1>
 
 <h2> :diamond_shape_with_a_dot_inside: Sobre </h2>
-<p>Projeto desenvolvido no curso de programação da Alura.</p>
+<p>Projeto desenvolvido no curso de JavaScript da Alura.</p>
 
 ## :rocket: Tecnologias
 <div>
