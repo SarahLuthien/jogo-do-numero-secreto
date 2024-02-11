@@ -10,5 +10,4 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div>
 
-## Me
-[Foto-perfil.jpg](https://postimg.cc/kRwdHjd4)
+
