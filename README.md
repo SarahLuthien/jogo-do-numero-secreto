@@ -12,7 +12,7 @@
 
 ## Me
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="https://uploaddeimagens.com.br/imagens/QP08go4">
- <source media="(prefers-color-scheme: light)" srcset="https://uploaddeimagens.com.br/imagens/QP08go4">
- <img alt="YOUR-ALT-TEXT" src="https://uploaddeimagens.com.br/imagens/QP08go4">
+ <source media="(prefers-color-scheme: dark)" srcset=https://uploaddeimagens.com.br/imagens/QP08go4>
+ <source media="(prefers-color-scheme: light)" srcset=https://uploaddeimagens.com.br/imagens/QP08go4>
+ <img alt="YOUR-ALT-TEXT" src=https://uploaddeimagens.com.br/imagens/QP08go4>
 </picture>
