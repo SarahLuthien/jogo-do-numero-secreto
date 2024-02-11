@@ -11,4 +11,4 @@
 </div>
 
 ## Me
-[url=https://postimg.cc/kRwdHjd4][img]https://i.postimg.cc/kRwdHjd4/Foto-perfil.jpg[/img][/url]
+[Foto-perfil.jpg](https://postimg.cc/kRwdHjd4)
