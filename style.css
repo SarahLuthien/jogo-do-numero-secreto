@@ -213,6 +213,8 @@ button:disabled {
         bottom: 0%; /* para ficar fixo embaixo*/
         
     }
+
+    
 }
 
 @media (max-width:800px){

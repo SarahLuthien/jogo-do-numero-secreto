@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo do número secreto</title>
+    <link rel="shortcut icon" href="assets/lupa_icon.png" type="icon">
+    <title>Número Secreto</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,7 +23,7 @@
             <div class="apresentacao__menu_jogo">
             <input type="number" min="1" max="10" class="container__input">
             <a class="chute container__botoes">
-                <button onclick="verificarChute()" class="container__botao">Chutar</button>
+                <button onclick="verificarChute()" id="chute" class="container__botao" >Chutar</button>
                 <button onclick="reiniciarJogo()" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
             </a>    
             </div>
