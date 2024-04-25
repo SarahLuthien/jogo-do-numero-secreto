@@ -87,12 +87,12 @@ main{
         justify-content: center;
         text-decoration: none; 
         align-items: center;
+        padding: 1rem;
         height: 30px;
         background-color: #bee8f3;
         font-size: 1rem;
         color: var(--cor-primaria);
         font-family: var(--fonte-primaria);
-        padding: 18px;
         text-align: center;
         font-weight: 400;
         flex-direction: column;
@@ -135,6 +135,8 @@ main{
     .container_footer{
         display: flex;
         width: 100%;
+        margin-top: 10rem;
+        padding:0%;
         background-color: #bee8f3;
        
     }
@@ -188,10 +190,8 @@ main{
         .container_footer{
             display: flex;
             width: 100%;
-        }
-    
-        .logo{
-            width: 2.5rem;
+            margin-top: 9rem;
+            padding: 0px;
         }
     
     }
