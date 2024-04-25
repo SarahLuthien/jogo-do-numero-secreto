@@ -1,0 +1,73 @@
+.container_footer{
+    display: flex;
+}
+
+
+.texto__rodape{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-decoration: none; 
+    align-items: center;
+    height: 30px;
+    background-color: #d8d7d7;
+    font-size: 1rem;
+    color: var(--cor-primaria);
+    font-family: var(--fonte-primaria);
+    padding: 20.5px;
+    text-align: center;
+    font-weight: 400;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.logo{
+    width: 2rem;
+}
+.texto__rodape:hover{
+    background-color: var(--cor-hover-rodape);
+
+    
+}
+
+/*Tablet*/
+@media (min-width:768px ){
+    .container_footer{
+        display: flex;
+        width: 100%;
+        padding-top: 10rem;
+    }
+
+}
+
+/* Para Computador */
+@media(min-width: 1024px){
+    .container_footer{
+        display: flex;
+        width: 100%;
+        padding-top: 9rem;
+    }
+
+    .texto__rodape{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        text-decoration: none; 
+        align-items: center;
+        height: 40px;
+        background-color: #d8d7d7;
+        font-size: 1.2rem;
+        color: var(--cor-primaria);
+        font-family: var(--fonte-primaria);
+        padding: 20.5px;
+        text-align: center;
+        font-weight: 400;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .logo{
+        width: 2.5rem;
+    }
+
+}

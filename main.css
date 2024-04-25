@@ -1,0 +1,40 @@
+@import url("reset.css");
+@import url("style.css");
+@import url("header.css");
+@import url("apresentacao.css");
+@import url("footer.css");
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+    --cor-hover-button: #272727;
+    --cor-hover-rodape: #60e0fa;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+
+}
+
+
+body{
+    box-sizing: border-box;
+    line-height: 1;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+main{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 0;
+}

@@ -1,0 +1,193 @@
+.apresentacao__conteudo{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.container_apresentacao{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.apresentacao__menu_text{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.titulo_destaque{
+    font-size: 1.56rem;
+    font-family: var(--fonte-primaria);
+    color:var(--cor-terciaria);
+    
+}
+
+.subtitulo{
+    font-size: 1.2rem;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+
+}
+
+.subtexto{
+    font-size: 1rem;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__menu_jogo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 20px;
+    font-size: 1.20rem;
+    padding: 1rem 0;
+    text-decoration: none; 
+    font-family: var(--fonte-primaria); 
+    color: var(--cor-secundaria);
+    background-image: url("/assets/Ruido.png");
+
+
+}
+
+.chute_container__botoes{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.container__botao {
+    display: flex;
+    width: 7rem;
+    border-radius: 16px;
+    background: var(--cor-terciaria);
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    text-align: center;
+   
+}
+
+.container__input {
+    display: flex;
+    width: 50%;
+    height: 2rem;
+    border-radius: 16px;
+    background-color: #F6F6F6;
+    border: none;
+    color: var(--cor-primaria);
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.container__botao:hover{
+    background-color: #1875E8;
+}
+
+button:disabled {
+    background-color: gray;
+}
+
+
+.image__conteudo{
+    border: 3px solid #22D4FD;
+    height: 18.75rem;   
+}
+
+/*Tablet*/
+@media (min-width:768px ){
+
+    
+    .apresentacao__conteudo{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    
+    .image__conteudo{
+        border: 3px solid #22D4FD;
+        height: 22rem;   
+    }
+    
+
+}
+
+/* Para Computador */
+@media(min-width: 1024px){
+
+    .apresentacao__conteudo{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .container_apresentacao{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+   
+    .titulo_destaque{
+        font-size: 2.8rem;
+        font-family: var(--fonte-primaria);
+        color:var(--cor-terciaria);
+        
+    }
+    
+    .subtitulo{
+        font-size: 1.9rem;
+    }
+    
+    .subtexto{
+        font-size: 1.5rem;
+
+    }
+    
+    .image__conteudo{
+        border: 3px solid #22D4FD;
+        height: 30rem;   
+    }
+
+    .container__botao {
+        display: flex;
+        width: 10rem;
+        border-radius: 16px;
+        background: var(--cor-terciaria);
+        font-size: 1.4rem;
+        text-align: center;
+       
+    }
+    
+    .container__input {
+        display: flex;
+        font-size: 2rem;
+       
+    }
+    
+    
+
+   
+
+    
+
+    
+}

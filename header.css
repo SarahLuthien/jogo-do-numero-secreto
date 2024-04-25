@@ -1,0 +1,51 @@
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+      
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 2rem;
+}
+.cabecalho__menu__link{
+    font-family: var(--fonte-primaria);
+    text-decoration: none; 
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--cor-terciaria);
+    
+}
+
+/*Tablet*/
+@media (min-width:768px){
+
+    .cabecalho__menu__link{
+        font-size: 1rem;
+
+    }
+
+}
+
+/* Para Computador */
+@media(min-width: 1024px){
+
+    .cabecalho{
+        display: flex;
+        padding: 2rem 12rem; 
+    }
+
+    .cabecalho__menu{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 100%;
+    }
+    .cabecalho__menu__link{
+        font-size: 1.3rem;
+                
+    }
+
+    
+}
