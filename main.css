@@ -6,6 +6,8 @@
 
 
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -37,4 +39,5 @@ main{
     display: flex;
     justify-content: space-around;
     padding: 3rem 0;
+    
 }
